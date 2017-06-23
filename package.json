@@ -6,7 +6,7 @@
   "repository": "git@github.com:Nitive/rxstore.git",
   "author": "Maxim Samoilov <nitive@icloud.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^20.0.4",
     "ts-jest": "^20.0.6",
     "typescript": "^2.3.4"
