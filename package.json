@@ -7,6 +7,7 @@
   "author": "Maxim Samoilov <nitive@icloud.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^20.0.2",
     "jest": "^20.0.4",
     "ts-jest": "^20.0.6",
     "typescript": "^2.3.4"
