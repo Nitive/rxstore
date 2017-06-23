@@ -7,6 +7,19 @@
   "author": "Maxim Samoilov <nitive@icloud.com>",
   "license": "MIT",
   "dependencies": {
+    "jest": "^20.0.4",
+    "ts-jest": "^20.0.6",
     "typescript": "^2.3.4"
+  },
+  "jest": {
+    "transform": {
+      ".tsx?": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "\\.(test)\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   }
 }
