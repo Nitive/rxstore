@@ -6,12 +6,6 @@
   "repository": "git@github.com:Nitive/rxstore.git",
   "author": "Maxim Samoilov <nitive@icloud.com>",
   "license": "MIT",
-  "devDependencies": {
-    "@types/jest": "^20.0.2",
-    "jest": "^20.0.4",
-    "ts-jest": "^20.0.6",
-    "typescript": "^2.3.4"
-  },
   "jest": {
     "transform": {
       ".tsx?": "<rootDir>/node_modules/ts-jest/preprocessor.js"
@@ -22,5 +16,14 @@
       "tsx",
       "js"
     ]
+  },
+  "dependencies": {
+    "rxjs": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.2",
+    "jest": "^20.0.4",
+    "ts-jest": "^20.0.6",
+    "typescript": "^2.3.4"
   }
 }
