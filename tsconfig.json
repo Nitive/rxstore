@@ -1,12 +1,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "jsx": "react",
     "lib": [
+      "dom",
       "es2015",
       "es2015.promise"
     ],
     "moduleResolution": "node",
-    "module": "es2015",
+    "module": "commonjs",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
